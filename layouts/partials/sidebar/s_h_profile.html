@@ -1,0 +1,15 @@
+<div class="row align-items-center">
+    <div class="col-auto">
+        <img src="{{ .Site.Params.author.profile }}" alt="" width="36" height="36" class="rounded-circle">
+    </div>
+    <div class="col ms-0">
+        <b>{{.Site.Params.author.name}}</b>
+        <br>
+        <span class="d-none d-sm-inline small">
+            {{.Site.Params.author.bio}}
+        </span>
+        <span class="d-sm-none d-block" style="font-size: 12px;">
+            {{.Site.Params.author.bio}}
+        </span>
+    </div>
+</div>

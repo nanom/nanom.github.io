@@ -1,0 +1,29 @@
+baseURL = 'http://0.0.0.0/'
+languageCode = 'en-us'
+title = 'Hernán J. Maina'
+
+[params]
+    description = "Personal Website"
+    keywords = "personal, website, blog, hugo, theme, academic, bootstrap"
+    useAvatar = true
+    
+[params.style]
+    bootstrap_css   = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    bootstrap_js    = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    fontawesome_icons  = "https://kit.fontawesome.com/1b7478c139.js"
+    ionicons_css    = "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+    
+[params.author]
+    name    = "Hernán J. Maina"
+    bio     = "Ph.D. Student in Computer Science. Universidad Nacional de Córdoba - CONICET."
+    mail    = "hernan.maina@mi.unc.edu.ar"
+    location  = "Córdoba, Argentina"
+    profile  = "images/profile.png"
+
+
+[params.social]
+    twitter     = "@tucuentaTwitter"
+    instagram   = "tucuentaInstagram"
+    facebook    = "tucuentaFacebook"
+    linkedin    = "tucuentaLinkedIn"
+    github      = "tucuentaGitHub"

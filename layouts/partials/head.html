@@ -1,0 +1,23 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{with .Site.Params.style.description -}}
+        <meta name="description" content="{{.}}">
+    {{ end }}
+    {{- with .Site.Params.style.author -}}
+        <meta name="Author" content="{{.}}">
+    {{ end }}
+    {{- with .Site.Params.style.keywords -}}
+        <meta name="keywords" content="{{.}}">
+    {{ end -}}
+    {{ with .Site.Params.style.bootstrap_css -}}
+        <link rel="stylesheet" href={{.}}>
+    {{ end }}
+    {{ with .Site.Params.style.fontawesome_icons -}}
+        <script src="{{.}}" crossorigin="anonymous"></script>
+    {{ end }}
+    {{- with .Site.Params.style.ionicons_css -}}
+        <link href="{{.}}" rel="stylesheet">
+    {{ end }}
+    <title>{{ .Site.Title }}</title>
+</head>

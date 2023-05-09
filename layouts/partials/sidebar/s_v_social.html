@@ -1,0 +1,9 @@
+<ul class="nav nav-pills">
+    {{ range $name, $value := .Site.Params.social }}
+        <p class="container-fluid" style="line-height:1">
+            <a class="d-block small text-decoration-none" style="color:#494e52" href="{{$value}}" target="_blank">
+                <i class="fa fa-solid fa-{{$name}}"></i> {{$name}}
+            </a>
+        </p>
+    {{ end }}
+</ul>
