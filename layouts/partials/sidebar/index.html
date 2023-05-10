@@ -1,0 +1,11 @@
+{{/*  Horizontal sidebar  */}}
+<div class="d-flex d-lg-none d-block">
+    {{ partial "sidebar/h_profile.html" . }}
+    {{ partial "sidebar/h_social.html" . }}
+</div>
+
+{{/*  Vertical sidebar  */}}
+<div class="d-none d-lg-inline p-xl-3">
+    {{ partial "sidebar/v_profile.html" .}}
+    {{ partial "sidebar/v_social.html" . }}
+</div>

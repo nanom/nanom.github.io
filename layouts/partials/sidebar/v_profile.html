@@ -1,5 +1,8 @@
 <div class="container-fluid px-lg-4 px-xl-4 py-3" style="max-width:200px;">
-    <img src="{{ .Site.Params.author.profile }}" class="rounded-circle img-fluid" alt="Hernán J. Maina">
+    <img 
+        src="{{ .Site.Params.author.profile }}" 
+        class="rounded-circle img-fluid" 
+        alt="Hernán J. Maina">
 </div>
     
 <div class="container-fluid">
@@ -11,7 +14,7 @@
     </p>
     
     <p class="d-block small">
-        <i class="fa fa-ligth fa-map-marker"></i> 
-        {{.Site.Params.author.location}}
-    </a>
+        <ion-icon name="{{.Site.Params.author.location.icon}}"></ion-icon> 
+        {{.Site.Params.author.location.name}}
+    </p>
 </div>

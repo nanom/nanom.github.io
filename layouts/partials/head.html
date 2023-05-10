@@ -9,15 +9,24 @@
     {{ end }}
     {{- with .Site.Params.style.keywords -}}
         <meta name="keywords" content="{{.}}">
-    {{ end -}}
-    {{ with .Site.Params.style.bootstrap_css -}}
-        <link rel="stylesheet" href={{.}}>
-    {{ end }}
-    {{ with .Site.Params.style.fontawesome_icons -}}
-        <script src="{{.}}" crossorigin="anonymous"></script>
-    {{ end }}
-    {{- with .Site.Params.style.ionicons_css -}}
+    {{- end -}}
+    {{ with .Site.Params.style.custom_css -}}
         <link href="{{.}}" rel="stylesheet">
     {{ end }}
+    {{- with .Site.Params.style.bootstrap_css -}}
+        <link rel="stylesheet" href={{.}}>
+    {{ end }}
+    {{- with .Site.Params.style.fontawesome_icons -}}
+        <script src="{{.}}" crossorigin="anonymous"></script>
+    {{- end -}}
+
+    {{- with .Site.Params.style.ionicons_css1 -}}
+        <script type="module" src="{{.}}"></script>
+    {{end }}
+   
+    {{- with .Site.Params.style.ionicons_css2 -}}
+        <script nomodule src="{{.}}"></script>
+    {{end }}
+   
     <title>{{ .Site.Title }}</title>
 </head>

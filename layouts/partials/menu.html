@@ -1,0 +1,15 @@
+<p align="right">
+    <b>[ </b>
+    {{ $pages := sort .Site.RegularPages ".Params.menu_pos"}}
+    {{ range $i, $p := $pages }}
+        <a class="social-links" href="/#sec-{{$p.Title}}">{{$p.Params.menu_name}}</a>
+    {{ if ne (add $i 1) (len $pages) }}<b> • </b>{{ end }}
+    {{ end }}
+
+    {{ $secs := sort .Site.Sections ".Params.menu_pos"}}
+    {{ range $secs}}
+        <b> • </b>
+        <a class="social-links" href="/{{.Title}}">{{.Params.menu_name}}</a>
+    {{ end }}
+    <b> ]</b> 
+</p>

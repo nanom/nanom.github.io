@@ -2,7 +2,24 @@
 <html lang="en">
     {{ partial "head.html" . }}
     <body>
-        {{ block "main" . }}{{ end }}
+        <div class="container-fluid overflow-hidden" style="color:#494e52">
+            <div class="row vh-100 overflow-auto">
+                <div class="col-12 col-lg-3 col-xl-3 px-sm-2 px-0 d-flex sticky-lg-top">
+                    <div class="d-flex flex-sm-column flex-row flex-grow-1 align-items-center align-items-sm-start py-3 ms-5 bg-light">
+                        {{ partial "sidebar/index.html" . }}
+                    </div>
+                </div>
+                <div class="col d-flex flex-column h-100">
+                    <main class="row">
+                        <div id="main" class="col py-5 ms-1 me-5 section-font">
+                            {{ partial "menu.html" .}}
+                            {{ block "main" . }}{{ end }}
+                        </div>
+                        {{ partial "footer.html" .}}
+                    </main>
+                </div>
+            </div>
+        </div>
     </body>
     {{ partial "js.html" . }}
 </html>

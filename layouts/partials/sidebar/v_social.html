@@ -1,0 +1,17 @@
+{{ $social := .Site.Params.social }}
+{{ $socialSorted := slice }}
+{{ range $key, $value := $social }}
+  {{ $valueKey := dict "key" $key "value" $value }}
+  {{ $socialSorted = $socialSorted | append $valueKey }}
+{{ end }}
+{{ $socialSorted = sort $socialSorted "value.pos" }}
+
+<ul class="nav nav-pills">
+    {{ range $socialSorted }}
+        <p class="container-fluid" style="line-height:1">
+            <a class="d-block small social-links" href="{{.value.url}}" target="_blank">
+                <ion-icon name="{{.value.icon}}"></ion-icon> {{.value.name}}
+            </a>
+        </p>
+    {{ end }}
+</ul>

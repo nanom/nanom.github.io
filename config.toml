@@ -8,22 +8,48 @@ title = 'Hernán J. Maina'
     useAvatar = true
     
 [params.style]
-    bootstrap_css   = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    bootstrap_js    = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    fontawesome_icons  = "https://kit.fontawesome.com/1b7478c139.js"
-    ionicons_css    = "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+    bootstrap_css   = "/css/bootstrap.css"
+    # "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    bootstrap_js    = "/js/bootstrap.bundle.js"
+    # "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    custom_css      = "/css/custom.css"
+    fontawesome_icons  = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css"
+    # "https://kit.fontawesome.com/1b7478c139.js"
+    # ionicons_css    = "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+    ionicons_css1    = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ionicons_css2    = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     
 [params.author]
     name    = "Hernán J. Maina"
     bio     = "Ph.D. Student in Computer Science. Universidad Nacional de Córdoba - CONICET."
-    mail    = "hernan.maina@mi.unc.edu.ar"
-    location  = "Córdoba, Argentina"
-    profile  = "images/profile.png"
+    profile  = "/images/profile.png"
+    [params.author.location]
+        name  = "Córdoba, Argentina"
+        icon  = "location-sharp"
 
 
 [params.social]
-    twitter     = "@tucuentaTwitter"
-    instagram   = "tucuentaInstagram"
-    facebook    = "tucuentaFacebook"
-    linkedin    = "tucuentaLinkedIn"
-    github      = "tucuentaGitHub"
+    [params.social.email]
+        pos = 1
+        name = "Email"
+        url = "mailto:hernan.maina@mi.unc.edu.ar"
+        icon = "mail-sharp"
+    
+    [params.social.github]
+        pos = 2
+        name = "Github"
+        url = "https://github.com/nanom"
+        icon = "logo-github"
+    
+    [params.social.acl]
+        pos = 3
+        name = "Acl Anthology"
+        url = "https://aclanthology.org/people/h/hernan-maina/"
+        icon = "unlink-sharp"
+    
+    [params.social.gscholar]
+        pos = 4
+        name = "Google Scholar"
+        url = "http://shorturl.at/xSWXY"
+        icon = "school-sharp"
+    

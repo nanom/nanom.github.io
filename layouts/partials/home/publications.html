@@ -1,0 +1,96 @@
+{{/* Agrupo publicaciones por año */}}
+{{ $pubByYear := dict }}
+{{ range .Site.Data.publications }}
+    {{ $year := .date | dateFormat "2006" }}
+    {{ if isset $pubByYear $year }}
+        {{ $val := index $pubByYear $year}}
+        {{ $val = $val | append .}}
+        {{ $pubByYear = (dict $year $val) | merge $pubByYear }}
+    {{ else }}
+        {{ $new := slice .}}
+        {{ $pubByYear = $pubByYear | merge (dict $year $new) }}
+    {{ end }}
+{{ end }}
+
+{{/* Recupero lista de años */}}
+{{ $yearList := slice }}
+{{ range $year, $pubs := $pubByYear }}
+    {{/*  {{$v := index (split $year "-") 0 }}  */}}
+    {{ $yearList = $yearList | append $year }}
+{{ end }}
+
+{{/* Ordeno de manera decreciente la lista de años */}}
+{{- $sortYearList := $yearList | sort -}}
+{{- $len := len $sortYearList -}}
+{{- $revYearList := slice -}}
+{{- range seq $len -}}
+    {{- $revYearList = $revYearList | append (index $sortYearList (sub $len .)) }}
+{{- end -}}
+
+
+{{/*  Imprimo seccion */}}
+{{ range .Pages }}
+    {{if eq .Title "publications"}}
+        <h3 id="sec-{{.Title}}" class="py-1">{{.Params.menu_name}}</h3>
+    {{end}}
+{{end}}
+
+{{/*  Imprimo menu de navegacion de años  */}}
+<div class="px-0">
+    [ 
+    {{ range $i, $year := $revYearList }}
+        <a href="#p-y-{{$year}}" class="social-links small">{{ $year }}</a>
+    {{ if ne (add $i 1) (len $revYearList) }}<b> • </b>{{ end }}
+    {{ end }}
+    ]
+</div>
+
+{{/* Imprimo publicaciones */}}
+<div class="py-3">
+    {{ range $year := $revYearList }}
+        <h6 id="p-y-{{$year}}">{{ $year }}</h6>
+        <ul>
+        {{ range $pub := index $pubByYear $year }}
+            <li class="py-1"><div>
+                {{/*  Titulo  */}}
+                <a href="{{$pub.url.venue}}" target="_blank"><b>{{ $pub.title }}.</b></a><br>
+                {{/*  Autores  */}}
+                {{$authors := split $pub.authors ","}}
+                {{ range $i,$a := $authors }}
+                    {{if in $a "Hernán" }}
+                        <b>{{$a}}</b>
+                    {{else}}
+                        {{$a}}
+                    {{end}}
+                    {{ if ne (add $i 1) (len $authors) }}, {{ end }}
+                {{end }}.
+                {{/* Venue */}}
+                <code>{{ $pub.venue }}</code>.&nbsp;
+                {{/*  Estado */}}
+                {{ $pub.state }}.<br>
+                {{/*  Enlaces  */}}
+                <span align="left" >
+                    {{ if $pub.url.pdf }}
+                        <a href="{{ $pub.url.pdf }}" target="_blank">[PDF]</a>&nbsp;
+                    {{ end }}
+                    {{ if $pub.url.slides }}
+                        <a href="{{ $pub.url.slides }}" target="_blank">[Slides]</a>&nbsp;
+                    {{ end }}
+                    {{ if $pub.url.poster }}
+                        <a href="{{ $pub.url.poster }}" target="_blank">[Poster]</a>&nbsp;
+                    {{ end }}
+                    {{ if $pub.url.video }}
+                        <a href="{{ $pub.url.video }}" target="_blank">[Video]</a>&nbsp;
+                    {{ end }}
+                    {{ if $pub.url.code }}
+                        <a href="{{ $pub.url.code }}" target="_blank">[Code]</a>&nbsp;
+                    {{ end }}
+                    {{ if $pub.url.demo }}
+                        <a href="{{ $pub.url.demo }}" target="_blank">[Demo]</a>
+                    {{ end }}
+                </span>
+        </div></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</div>

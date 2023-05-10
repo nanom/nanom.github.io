@@ -1,13 +1,21 @@
+{{ $social := .Site.Params.social }}
+{{ $socialSorted := slice }}
+{{ range $key, $value := $social }}
+  {{ $valueKey := dict "key" $key "value" $value }}
+  {{ $socialSorted = $socialSorted | append $valueKey }}
+{{ end }}
+{{ $socialSorted = sort $socialSorted "value.pos" }}
+
 <div class="row align-items-center">
     <div class="dropdown col">
         <span href="#" class="d-flex align-items-center text-grey text-decoration-none dropdown-buttom" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
             <span href="#" class="btn btn-sm btn-dark ms-5"> Follow</span>
         </span>
         <ul class="dropdown-menu dropdown-menu-white text-small shadow dropdown-menu-end mt-2" aria-labelledby="dropdownUser1">
-            {{ range $name, $value := .Site.Params.social }}
+            {{ range $socialSorted }}
             <li>
-                <a class="dropdown-item" href="{{$value}}" target="_blank">
-                    <i class="fab fa-{{ $name }}"></i> {{$name}}
+                <a class="dropdown-item social-links" href="{{.value.url}}" target="_blank">
+                    <ion-icon name="{{.value.icon}}"></ion-icon> {{.value.name}}
                 </a>
             </li>
             {{ end }}
