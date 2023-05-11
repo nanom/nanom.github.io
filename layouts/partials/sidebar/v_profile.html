@@ -1,20 +1,28 @@
-<div class="container-fluid px-lg-4 px-xl-4 py-3" style="max-width:200px;">
-    <img 
-        src="{{ .Site.Params.author.profile }}" 
-        class="rounded-circle img-fluid" 
-        alt="Hernán J. Maina">
-</div>
-    
-<div class="container-fluid">
-    <span>
-        <b>{{.Site.Params.author.name}}</b>
-    </span>
-    <p class="small px-1 py-1">
-        {{.Site.Params.author.bio}}
-    </p>
-    
-    <p class="d-block small">
-        <ion-icon name="{{.Site.Params.author.location.icon}}"></ion-icon> 
-        {{.Site.Params.author.location.name}}
-    </p>
+{{ $social := .Site.Params.social }}
+{{ $socialSorted := slice }}
+{{ range $key, $value := $social }}
+  {{ $valueKey := dict "key" $key "value" $value }}
+  {{ $socialSorted = $socialSorted | append $valueKey }}
+{{ end }}
+{{ $socialSorted = sort $socialSorted "value.pos" }}
+
+<div class="container py-4">
+    <div id="avatar">
+        <a href="/">
+            <img src="{{ .Site.Params.author.profile }}" class="rounded-circle mb-3" style="width: 170px;" alt="Avatar">
+        </a>
+        <h6 class="mb-2"><strong>{{.Site.Params.author.name}}</strong></h6>
+        <p class="text-muted small">
+            {{.Site.Params.author.bio}}
+            {{/*  <span class="badge bg-dark">ARG</span>  */}}
+        </p>
+    </div>
+
+    <div id="social" class="py-3" align="center">
+        {{ range $socialSorted }}
+            <a class="small social-links px-2" href="{{.value.url}}" target="_blank">
+                <i class="{{.value.class}}" style="font-size: 16px" title="{{.value.name}}"></i>
+            </a>
+        {{ end }}
+    </div>
 </div>

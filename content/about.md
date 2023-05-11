@@ -2,6 +2,7 @@
 title: about
 menu_name: About
 menu_pos: 1
+type: page
 draft: false
 ---
 

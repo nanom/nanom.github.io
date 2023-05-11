@@ -11,7 +11,7 @@ a {
     text-decoration: none !important;
 }
 .social-links:hover{ 
-    text-decoration: underline !important;
+    color: #52adc8 !important
 }
 
 .section-font {
@@ -22,5 +22,5 @@ a {
     color: #494e52;
     font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 17px;
 }

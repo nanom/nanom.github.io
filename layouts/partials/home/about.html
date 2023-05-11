@@ -1,6 +1,6 @@
 {{ range .Pages }}
     {{if eq .Title "about"}}
-        <h3 id="sec-{{.Title}}" class="py-1">{{.Params.menu_name}}</h3>
+        <h3 id="sec-{{.Title}}">{{.Params.menu_name}}</h3>
         <span>{{ .Content }}</span>
     {{end}}
 {{end}}

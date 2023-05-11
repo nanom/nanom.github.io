@@ -1,9 +1,8 @@
-{{ $rootPath := .}}
-{{ $sortedPages := sort .Site.RegularPages ".Params.menu_pos"}}
-{{ range $sortedPages }}
-    {{$path := printf "home/%s.html" .Title}}
-    <div class="py-1 px-4">
-        {{ partial $path $rootPath }}
-        {{ partial "up.html" .}}
-    </div>
-{{ end }}
+
+{{$root := .Site}}
+{{$names := slice "about" "things" "publications"}}
+{{range $names}}
+    {{$path := (printf "home/%s.html" .)}}
+    {{ partial $path $root }}
+    {{ partial "up.html" .}}
+{{end}}

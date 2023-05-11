@@ -1,4 +1,4 @@
-baseURL = 'http://0.0.0.0/'
+baseURL = 'localhost'
 languageCode = 'en-us'
 title = 'Hernán J. Maina'
 
@@ -9,22 +9,17 @@ title = 'Hernán J. Maina'
     
 [params.style]
     bootstrap_css   = "/css/bootstrap.css"
-    # "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     bootstrap_js    = "/js/bootstrap.bundle.js"
-    # "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     custom_css      = "/css/custom.css"
-    fontawesome_icons  = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css"
-    # "https://kit.fontawesome.com/1b7478c139.js"
-    # ionicons_css    = "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
-    ionicons_css1    = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ionicons_css2    = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    acl_icon        = "/css/icons/acl.css"
+    fontawesome_icon = "/css/icons/fontawesome/css/all.css"
     
 [params.author]
     name    = "Hernán J. Maina"
-    bio     = "Ph.D. Student in Computer Science. Universidad Nacional de Córdoba - CONICET."
+    bio     = "Ph.D. Student in Computer Science. Universidad Nacional de Córdoba, Argentina 🇦🇷."
     profile  = "/images/profile.png"
     [params.author.location]
-        name  = "Córdoba, Argentina"
+        name  = "Córdoba. Argentina"
         icon  = "location-sharp"
 
 
@@ -33,23 +28,22 @@ title = 'Hernán J. Maina'
         pos = 1
         name = "Email"
         url = "mailto:hernan.maina@mi.unc.edu.ar"
-        icon = "mail-sharp"
+        class = "fa-regular fa-envelope-open"
     
     [params.social.github]
         pos = 2
         name = "Github"
         url = "https://github.com/nanom"
-        icon = "logo-github"
+        class = "fa-brands fa-github"
     
     [params.social.acl]
-        pos = 3
+        pos = 4
         name = "Acl Anthology"
         url = "https://aclanthology.org/people/h/hernan-maina/"
-        icon = "unlink-sharp"
+        class = "cfa-acl-logo"
     
     [params.social.gscholar]
-        pos = 4
+        pos = 3
         name = "Google Scholar"
         url = "http://shorturl.at/xSWXY"
-        icon = "school-sharp"
-    
+        class = "fa-solid fa-graduation-cap"

@@ -1,15 +1,34 @@
-<p align="right">
+{{/*  <p align="right">
     <b>[ </b>
-    {{ $pages := sort .Site.RegularPages ".Params.menu_pos"}}
+    {{$pages := sort .Site.Pages ".Params.menu_pos"}}
     {{ range $i, $p := $pages }}
-        <a class="social-links" href="/#sec-{{$p.Title}}">{{$p.Params.menu_name}}</a>
-    {{ if ne (add $i 1) (len $pages) }}<b> • </b>{{ end }}
-    {{ end }}
-
-    {{ $secs := sort .Site.Sections ".Params.menu_pos"}}
-    {{ range $secs}}
-        <b> • </b>
-        <a class="social-links" href="/{{.Title}}">{{.Params.menu_name}}</a>
+        {{$href := "/"}}
+        {{if eq .Type "page"}}
+            {{$href = (printf "/#sec-%s" $p.Title) }}
+        {{else}}
+            {{ $href = (printf "/%s" $p.Title) }}
+        {{end}}
+        {{if $p.Params.menu_name }}
+            <a class="social-links" href={{ $href }}>{{$p.Params.menu_name}}</a>
+            {{ if ne (add $i 1) (len $pages) }}<b>|</b>{{ end }}
+        {{end}}
     {{ end }}
     <b> ]</b> 
-</p>
+</p>  */}}
+
+<ul class="nav nav-tabs justify-content-end">
+    {{$pages := sort .Site.Pages ".Params.menu_pos"}}
+    {{ range $i, $p := $pages }}
+        {{$href := "/"}}
+        {{if eq .Type "page"}}
+            {{$href = (printf "/#sec-%s" $p.Title) }}
+        {{else}}
+            {{ $href = (printf "/%s" $p.Title) }}
+        {{end}}
+        {{if $p.Params.menu_name }}
+            <li class="nav-item">
+                <a class="nav-link social-links" href={{ $href }}>{{$p.Params.menu_name}}</a>
+            </li>
+        {{end}}
+    {{ end }}
+</ul>

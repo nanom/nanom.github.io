@@ -1,15 +1,42 @@
 <div class="row align-items-center">
-    <div class="col-auto">
-        <img src="{{ .Site.Params.author.profile }}" alt="" width="36" height="36" class="rounded-circle">
+    <div id="avatar" class="col-auto">
+        <a href="/">
+            <img src="{{ .Site.Params.author.profile }}" alt="" width="36" height="36" class="rounded-circle">
+        </a>
     </div>
-    <div class="col ms-0">
-        <b>{{.Site.Params.author.name}}</b>
-        <br>
-        <span class="d-none d-sm-inline small">
-            {{.Site.Params.author.bio}}
+    <div id="bio" class="col">
+        <b>{{.Site.Params.author.name}}</b><br>
+        <div class="text-muted">
+            <span class="d-none d-sm-inline small">
+                {{.Site.Params.author.bio}}
+            </span>
+            <span class="d-sm-none d-block" style="font-size: 12px;">
+                {{.Site.Params.author.bio}}
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="social" class="row align-items-center px-2">
+    {{ $social := .Site.Params.social }}
+    {{ $socialSorted := slice }}
+    {{ range $key, $value := $social }}
+      {{ $valueKey := dict "key" $key "value" $value }}
+      {{ $socialSorted = $socialSorted | append $valueKey }}
+    {{ end }}
+    {{ $socialSorted = sort $socialSorted "value.pos" }}
+    
+    <div class="dropdown">
+        <span href="#" class="d-flex align-items-center text-grey text-decoration-none dropdown-buttom ms-2" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <span href="#" class="btn btn-sm btn-outline-dark"> Follow</span>
         </span>
-        <span class="d-sm-none d-block" style="font-size: 12px;">
-            {{.Site.Params.author.bio}}
-        </span>
+        <ul class="dropdown-menu dropdown-menu-white text-small shadow dropdown-menu-end mt-2" aria-labelledby="dropdownUser1">
+            {{ range $socialSorted }}
+                <a class="dropdown-item social-links" href="{{.value.url}}" target="_blank">
+                    <i class="{{.value.class}}" title="{{.value.name}}"></i>
+                    <span class="small">{{.value.name}}</span>
+                </a>
+            {{ end }}
+        </ul>
     </div>
 </div>

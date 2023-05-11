@@ -2,6 +2,7 @@
 title: things
 menu_name: Things I would like to tell you
 menu_pos: 2
+type: page
 draft: false
 ---
 
