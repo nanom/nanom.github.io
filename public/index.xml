@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hernán J. Maina</title>
+    <link>https://nanom.github.io/</link>
+    <description>Recent content on Hernán J. Maina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nanom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bias assessment for experts in discrimination, not in computer science</title>
+      <link>https://nanom.github.io/publications/2023/bias_assessment/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2023/bias_assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A methodology to characterize bias and harmful stereotypes in natural language processing in Latin America</title>
+      <link>https://nanom.github.io/publications/2023/a_methodology_to/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2023/a_methodology_to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A tool to overcome technical barriers for bias assessment in human language technologies</title>
+      <link>https://nanom.github.io/publications/2022/a_tool_to_overcome/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2022/a_tool_to_overcome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An interpretable representation of dialog history in referential visual dialog</title>
+      <link>https://nanom.github.io/publications/2022/an_interpretable_representation/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2022/an_interpretable_representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic multi-modal processing of language and vision to assist people with visual impairments</title>
+      <link>https://nanom.github.io/publications/2022/automatic_multi_modal_processing/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2022/automatic_multi_modal_processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What kinds of errors do reference resolution models make and what can we learn from them?</title>
+      <link>https://nanom.github.io/publications/2022/what_kinds_of_errros/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2022/what_kinds_of_errros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Region under Discussion for visual dialog</title>
+      <link>https://nanom.github.io/publications/2021/rud/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2021/rud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stop the Bus!: Computer vision for automatic recognition of urban bus lines</title>
+      <link>https://nanom.github.io/publications/2020/stop_the_bus/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2020/stop_the_bus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visión artificial para el reconocimiento automático, en tiempo real, de líneas urbanas de autobuses</title>
+      <link>https://nanom.github.io/publications/2019/thesis/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/publications/2019/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://nanom.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/about/</guid>
+      <description>Hi! I am in my second year of the Ph.D. in Computer Science at the Facultad de Matemática, Astronomía, Física y Computación (FAMAF) of the Universidad Nacional de Córdoba (UNC), advised by Dra. Luciana Benotti, with a doctoral scholarship from the national agency for science (CONICET). Before this, in 2019 I received my Master&amp;rsquo;s Degree in Computer Science through the final work called &amp;ldquo;Visión artificial para el reconocimiento automático, en tiempo real, de líneas urbanas de autobuses&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>things</title>
+      <link>https://nanom.github.io/things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nanom.github.io/things/</guid>
+      <description>March 2023 - Presentation of work in a poster session at the Latin American Meeting In Artificial Intelligence KHIPU 2023. [Poster] Dec 2022 - Grant recipient to attend the KHIPU 2023 event, to be held 6-10 of March of 2023 in Montevideo, Uruguay. Aug 2022 - I joined FAIR project under the direction of Dra. Laura Alonso Alemany and Dra. Luciana Benotti, for the development of a tool for the detection of biases in large language models.</description>
+    </item>
+    
+  </channel>
+</rss>

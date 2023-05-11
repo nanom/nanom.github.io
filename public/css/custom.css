@@ -1,0 +1,26 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+a {
+    color: #52adc8 !important;
+  }
+
+.social-links {
+    color: #494e52 !important;
+    text-decoration: none !important;
+}
+.social-links:hover{ 
+    color: #52adc8 !important
+}
+
+.section-font {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0px;
+    padding-bottom: 9em;
+    color: #494e52;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+}

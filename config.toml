@@ -1,9 +1,9 @@
-baseURL = 'localhost'
+baseURL = 'https://nanom.github.io'
 languageCode = 'en-us'
 title = 'Hernán J. Maina'
 
 [params]
-    description = "Personal Website"
+    description = "My Personal Website"
     keywords = "personal, website, blog, hugo, theme, academic, bootstrap"
     useAvatar = true
     
