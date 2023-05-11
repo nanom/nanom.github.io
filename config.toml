@@ -13,6 +13,7 @@ title = 'Hernán J. Maina'
     custom_css      = "/css/custom.css"
     acl_icon        = "/css/icons/acl.css"
     fontawesome_icon = "/css/icons/fontawesome/css/all.css"
+    favicon         = "/images/profile.ico"
     
 [params.author]
     name    = "Hernán J. Maina"

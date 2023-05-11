@@ -27,7 +27,9 @@
     {{end }}
     {{- with .Site.Params.style.ionicons_css2 -}}
         <script nomodule src="{{.}}"></script>
-    {{end }}
-   
+    {{- end -}}
+    {{- with .Site.Params.style.favicon -}}
+        <link rel="shortcut icon" href="{{.}}">
+    {{- end -}}
     <title>{{ .Site.Title }}</title>
 </head>
