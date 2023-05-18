@@ -1,37 +1,60 @@
+const moon_icon = "fa-regular fa-moon";
+const sun_icon = "fa-regular fa-sun";
+const dark_font = "section-font-dark";
+const light_font = "section-font-light";
+const dark_button = "btn btn-sm btn-outline-secondary";
+const light_button = "btn btn-sm btn-outline-dark";
+const dark_links = "social-links-dark";
+const light_links = "social-links-light";
+
+
 const darkTheme = () => {
+
     document.querySelector('body').setAttribute('data-bs-theme', 'dark');
-    document.querySelector('body').setAttribute('class', 'section-font-dark');
-    document.querySelector('#btn-follow').setAttribute('class', 'btn btn-sm btn-outline-secondary');
-    var a = document.querySelectorAll('#theme-mode-icon'); 
-    a.forEach(element => {
-        element.setAttribute('class', 'fa fa-sun');
+    document.querySelector('body').setAttribute('class', dark_font);
+    document.querySelector('#btn-follow').setAttribute('class', dark_button);
+    
+    document.querySelectorAll('#theme-mode-icon').forEach(element => {
+        element.setAttribute('class', sun_icon);
     });
 
-    var a = document.querySelectorAll('#social-links'); 
-    a.forEach(element => {
+    document.querySelectorAll('#social-links').forEach(element => {
         var c = element.getAttribute('class');
-        element.setAttribute('class', c.replace('social-links-light', 'social-links-dark'));
+        element.setAttribute('class', c.replace(light_links, dark_links));
     });
 }
 
 const lightTheme = () => {
     document.querySelector('body').setAttribute('data-bs-theme', 'light');
-    document.querySelector('body').setAttribute('class', 'section-font-light');
-    document.querySelector('#btn-follow').setAttribute('class', 'btn btn-sm btn-outline-dark');
-    var a = document.querySelectorAll('#theme-mode-icon'); 
-    a.forEach(element => {
-        element.setAttribute('class', 'fa fa-moon');
+    document.querySelector('body').setAttribute('class', light_font);
+    document.querySelector('#btn-follow').setAttribute('class', light_button);
+    
+    document.querySelectorAll('#theme-mode-icon').forEach(element => {
+        element.setAttribute('class', moon_icon);
     });
 
-    var a = document.querySelectorAll('#social-links'); 
-    a.forEach(element => {
+    document.querySelectorAll('#social-links').forEach(element => {
         var c = element.getAttribute('class');
-        element.setAttribute('class', c.replace('social-links-dark', 'social-links-light'));
+        element.setAttribute('class', c.replace(dark_links, light_links));
     });
 }
 
-const themeMode = () => {
+const applyManualTheme = () => {
     var mode = document.querySelector('body').getAttribute('data-bs-theme');
-    mode === 'light' ? darkTheme() : lightTheme();
-}
+    if (mode == 'light') {
+        darkTheme();
+    } else {
+        lightTheme();
+    };
+};
 
+const applyThemeBasedOnTime = () => {
+    const currentHour = new Date().getHours();
+    if (currentHour >= 20 || currentHour < 7) {
+        darkTheme();
+    } else {
+        lightTheme();
+    }
+};
+
+applyThemeBasedOnTime();
