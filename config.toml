@@ -8,9 +8,10 @@ title = 'Hernán J. Maina'
     useAvatar = true
     
 [params.style]
-    bootstrap_css   = "/css/bootstrap.css"
-    bootstrap_js    = "/js/bootstrap.bundle.js"
+    bootstrap_css   = "/css/bootstrap.min.css"
     custom_css      = "/css/custom.css"
+    bootstrap_js    = "/js/bootstrap.bundle.js"
+    custom_js       = "/js/custom.js"
     acl_icon        = "/css/icons/acl.css"
     fontawesome_icon = "/css/icons/fontawesome/css/all.css"
     favicon         = "/images/profile.ico"

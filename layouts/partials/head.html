@@ -16,18 +16,12 @@
     {{- with .Site.Params.style.bootstrap_css -}}
         <link rel="stylesheet" href={{.}}>
     {{ end }}
-    {{- with .Site.Params.style.ionicons_css1 -}}
-        <script type="module" src="{{.}}"></script>
-    {{end }}
     {{- with .Site.Params.style.fontawesome_icon -}}
         <link rel="stylesheet" href={{.}}>
     {{end }}
     {{- with .Site.Params.style.acl_icon -}}
         <link rel="stylesheet" href={{.}}>
     {{end }}
-    {{- with .Site.Params.style.ionicons_css2 -}}
-        <script nomodule src="{{.}}"></script>
-    {{- end -}}
     {{- with .Site.Params.style.favicon -}}
         <link rel="shortcut icon" href="{{.}}">
     {{- end -}}

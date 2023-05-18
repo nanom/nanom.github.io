@@ -28,7 +28,7 @@
     
     <div class="dropdown">
         <span href="#" class="d-flex align-items-center text-grey text-decoration-none dropdown-buttom ms-2" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-            <span href="#" class="btn btn-sm btn-outline-dark"> Follow</span>
+            <span id='btn-follow' href="#" class="btn btn-sm btn-outline-dark"> Follow</span>
         </span>
         <ul class="dropdown-menu dropdown-menu-white text-small shadow dropdown-menu-end mt-2" aria-labelledby="dropdownUser1">
             {{ range $socialSorted }}
@@ -40,3 +40,5 @@
         </ul>
     </div>
 </div>
+
+{{- partial "dark_mode.html" . -}}
