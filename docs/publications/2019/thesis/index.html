@@ -3,14 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href=/css/bootstrap.css>
+    <link rel="stylesheet" href=/css/bootstrap.min.css>
     <link rel="stylesheet" href=/css/icons/fontawesome/css/all.css>
     <link rel="stylesheet" href=/css/icons/acl.css>
     <link rel="shortcut icon" href="/images/profile.ico"><title>Hernán J. Maina</title>
-</head><body>
+</head><body data-bs-theme="light" class="section-font-light">
         <div class="container overflow-hidden">
             <div class="row vh-100 overflow-auto">
-                <div class="col-12 col-lg-3 col-xl-3 px-sm-2 px-0 bg-white d-flex sticky-lg-top">
+                <div class="col-12 col-lg-3 col-xl-3 px-sm-2 px-0 d-flex sticky-lg-top">
                     <div class="d-flex flex-md-column flex-row flex-grow-1 align-items-center align-items-sm-start px-3 pt-2">
 <div class="d-flex d-lg-none d-block">
     <div class="row align-items-center">
@@ -52,7 +52,7 @@
     
     <div class="dropdown">
         <span href="#" class="d-flex align-items-center text-grey text-decoration-none dropdown-buttom ms-2" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-            <span href="#" class="btn btn-sm btn-outline-dark"> Follow</span>
+            <span id='btn-follow' href="#" class="btn btn-sm btn-outline-dark"> Follow</span>
         </span>
         <ul class="dropdown-menu dropdown-menu-white text-small shadow dropdown-menu-end mt-2" aria-labelledby="dropdownUser1">
             
@@ -78,8 +78,9 @@
             
         </ul>
     </div>
-</div>
-
+</div><button onclick="themeMode()" class="btn rounded-fill">
+    <i id='theme-mode-icon' class="fa fa-moon"></i>
+</button>
 </div>
 
 
@@ -136,7 +137,7 @@
 </div></div>
                 </div>
                 <div id="top" class="col d-flex flex-column h-100">
-                    <main class="row section-font">
+                    <main class="row">
                         <div class="py-3">
 
 <ul class="nav nav-tabs justify-content-end">
@@ -244,13 +245,16 @@
             </li>
         
     
+    <li class="nav-item d-none d-lg-inline"><button onclick="themeMode()" class="btn rounded-fill">
+    <i id='theme-mode-icon' class="fa fa-moon"></i>
+</button></li>
 </ul></div>
                         <div class="col pt-4 px-3">
     Visión artificial para el reconocimiento automático, en tiempo real, de líneas urbanas de autobuses
     Single pub
 </div>
                     </main>
-                    <footer class="row bg-light py-4 mt-auto"><div class="d-flex justify-content-center w-100">
+                    <footer class="row py-4 mt-auto"><div class="d-flex justify-content-center w-100">
     <div class="small text-muted">© 
         <a href="/">HERNAN J. MAINA</a> 2023
     </div> 
@@ -259,4 +263,4 @@
                 </div>
             </div>
         </div>
-    </body><script src="/js/bootstrap.bundle.js"></script></html>
+    </body><script src="/js/bootstrap.bundle.js"></script><script src="/js/custom.js"></script></html>

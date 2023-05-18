@@ -7,7 +7,7 @@ a {
   }
 
 .social-links {
-    color: #494e52 !important;
+    color: #62696e !important;
     text-decoration: none !important;
 }
 .social-links:hover{ 
@@ -19,8 +19,15 @@ a {
     padding: 0;
     padding-bottom: 0px;
     padding-bottom: 9em;
-    color: #494e52;
     font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
     line-height: 1.5;
     font-size: 17px;
+}
+
+.section-font-light {
+    color: #494e52;
+}
+
+.section-font-dark {
+    color: #979da0;
 }
