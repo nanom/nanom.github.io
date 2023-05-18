@@ -20,7 +20,7 @@
 
     <div id="social" class="py-3" align="center">
         {{ range $socialSorted }}
-            <a class="small social-links px-2" href="{{.value.url}}" target="_blank">
+            <a id='social-links' class="small social-links-light px-2" href="{{.value.url}}" target="_blank">
                 <i class="{{.value.class}}" style="font-size: 16px" title="{{.value.name}}"></i>
             </a>
         {{ end }}

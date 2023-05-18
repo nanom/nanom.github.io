@@ -32,7 +32,7 @@
         </span>
         <ul class="dropdown-menu dropdown-menu-white text-small shadow dropdown-menu-end mt-2" aria-labelledby="dropdownUser1">
             {{ range $socialSorted }}
-                <a class="dropdown-item social-links" href="{{.value.url}}" target="_blank">
+                <a id='social-links' class="dropdown-item social-links-light" href="{{.value.url}}" target="_blank">
                     <i class="{{.value.class}}" title="{{.value.name}}"></i>
                     <span class="small">{{.value.name}}</span>
                 </a>

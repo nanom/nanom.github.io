@@ -7,10 +7,25 @@ a {
   }
 
 .social-links {
-    color: #62696e !important;
+    /* color: #62696e !important; */
     text-decoration: none !important;
 }
-.social-links:hover{ 
+
+.social-links-light {
+    text-decoration: none !important;
+    color: #62696e !important;
+}
+
+.social-links-dark {
+    text-decoration: none !important;
+    color: #aeb5b9 !important;
+}
+
+.social-links-light:hover {
+    color: #52adc8 !important
+}
+
+.social-links-dark:hover {
     color: #52adc8 !important
 }
 
@@ -29,5 +44,5 @@ a {
 }
 
 .section-font-dark {
-    color: #979da0;
+    color: #8e9497;
 }

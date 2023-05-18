@@ -12,7 +12,7 @@
 <p>
     [ 
     {{ range $i, $p := $pubsSorted }}
-        <a href="#p-y-{{.Key}}" class="social-links small">{{ .Key }}</a>
+        <a id='social-links' href="#p-y-{{.Key}}" class="social-links-light small">{{ .Key }}</a>
     {{ if ne (add $i 1) (len $pubsSorted) }}<b> • </b>{{ end }}
     {{ end }}
     ]
@@ -26,7 +26,7 @@
     {{range .Pages}}
         <li class="py-1">
             {{/*  Titulo  */}}
-            <a href="{{.Params.links.venue}}" target="_blank"><b>{{ .Params.title }}.</b>
+            <a href="{{.Params.links.venue}}" target="_blank">{{ .Params.title }}.
                 <a class="social-links" href="{{.Permalink}}" alt="Ampliar">
                     <ion-icon name="move-sharp"></ion-icon>
                 </a>

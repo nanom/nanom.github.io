@@ -6,6 +6,12 @@ const darkTheme = () => {
     a.forEach(element => {
         element.setAttribute('class', 'fa fa-sun');
     });
+
+    var a = document.querySelectorAll('#social-links'); 
+    a.forEach(element => {
+        var c = element.getAttribute('class');
+        element.setAttribute('class', c.replace('social-links-light', 'social-links-dark'));
+    });
 }
 
 const lightTheme = () => {
@@ -15,6 +21,12 @@ const lightTheme = () => {
     var a = document.querySelectorAll('#theme-mode-icon'); 
     a.forEach(element => {
         element.setAttribute('class', 'fa fa-moon');
+    });
+
+    var a = document.querySelectorAll('#social-links'); 
+    a.forEach(element => {
+        var c = element.getAttribute('class');
+        element.setAttribute('class', c.replace('social-links-dark', 'social-links-light'));
     });
 }
 
