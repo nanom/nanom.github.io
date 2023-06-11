@@ -2,7 +2,7 @@
 file_name = "Bias Assessment"
 draft = false
 title = "Bias assessment for experts in discrimination, not in computer science"
-authors = "Laura Alonso Alemany, Luciana Benotti, Hernán Maina, Lucía González, Mariela Rajngewerc, Lautaro Martínez, Jorge Sánchez, Mauro Schilman, Guido Ivetta, Alexia Halvorsen, Amanda Mata Rojo, Matías Bordone, Beatriz Busaniche"
+authors = "Laura Alonso Alemany, Luciana Benotti, Hernán Maina, Lucía González, Lautaro Martínez, Beatriz Busaniche, Alexia Halvorsen, Amanda Mata Rojo, Mariela Rajngewerc"
 abstract = ""
 date = 2023-04-01
 pages = "91-106"
