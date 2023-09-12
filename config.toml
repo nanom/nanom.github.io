@@ -47,5 +47,5 @@ title = 'Hernán J. Maina'
     [params.social.gscholar]
         pos = 3
         name = "Google Scholar"
-        url = "http://shorturl.at/xSWXY"
+        url = "https://scholar.google.com/citations?user=wA3vqywAAAAJ&hl=es"
         class = "fa-solid fa-graduation-cap"
