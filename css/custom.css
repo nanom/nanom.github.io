@@ -1,0 +1,106 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+a {
+    color: #52adc8 !important;
+  }
+
+.social-links {
+    /* color: #62696e !important; */
+    text-decoration: none !important;
+}
+
+.social-links-light {
+    text-decoration: none !important;
+    color: #62696e !important;
+}
+
+.social-links-dark {
+    text-decoration: none !important;
+    color: #aeb5b9 !important;
+}
+
+.social-links-light:hover {
+    color: #52adc8 !important
+}
+
+.social-links-dark:hover {
+    color: #52adc8 !important
+}
+
+.section-font {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0px;
+    padding-bottom: 9em;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.section-font-light {
+    color: #494e52;
+}
+
+.section-font-dark {
+    color: #8e9497;
+}
+
+/* estilos para paginador de seccion Publication */
+#pubs-pagination {
+    gap: 0.25rem;
+}
+
+#pubs-pagination .page-item {
+    transition: all 0.2s ease;
+}
+
+#pubs-pagination .page-link {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+#pubs-pagination .page-link:hover {
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
+
+
+/* estilos para paginador de seccion Things */
+#milestone-pagination {
+    gap: 0.25rem;
+}
+
+#milestone-pagination .page-item {
+    transition: all 0.2s ease;
+}
+
+#milestone-pagination .page-link {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+#milestone-pagination .page-link:hover {
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
+
+#milestone-pagination .page-item.active .page-link {
+    background-color: #444;
+    /* border: 1px solid #8d8d8de3; */
+    color: #fff;
+}
+
+/* Opcional: dar más espacio si se ve muy apretado */
+nav[aria-label="Milestone pagination"] {
+    margin-top: 2rem;
+}
