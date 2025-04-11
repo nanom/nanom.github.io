@@ -27,8 +27,8 @@
                 hernan.maina@mi.unc.edu.ar
             </a>            
             <div class="ps-2 border-start border-2">
-                <span class="text-muted small">Ph.D. Student in C.Science</span><br>
-                <span class="text-muted small d-sm-inline fst-italic">FaMAF · UNC · Cba · 🇦🇷 </span>
+                <span class="text-muted small">Ph.D. Student in CS</span><br>
+                <span class="text-muted small d-sm-inline fst-italic">FaMAF · UNC · 🇦🇷 </span>
                 
             </div>
             
@@ -174,7 +174,7 @@
         <div class="text-muted small mb-3 ps-2 ">
             Ph.D. Student in Computer Science<br>
             <span class="fst-italic text-secondary d-block ps-1 border-start border-2">
-                FaMAF · Universidad Nacional de Córdoba · Córdoba · Argentina 🇦🇷 
+                FaMAF · Universidad Nacional de Córdoba · Argentina 🇦🇷 
             </span>
         </div>
 
@@ -1537,6 +1537,7 @@ Delivered at FaMAF · UNC, Argentina.
         milestones.forEach((el, idx) => {
           el.style.display = (idx >= (page - 1) * itemsPerPage && idx < page * itemsPerPage) ? 'block' : 'none';
         });
+        scrollUp();
       }
   
       function buildPagination() {
@@ -1550,7 +1551,7 @@ Delivered at FaMAF · UNC, Argentina.
           e.preventDefault();
           showPage(1);
           setActive(1);
-          scrollUp();
+          
         });
         pagination.appendChild(firstLi);
   
@@ -1563,7 +1564,7 @@ Delivered at FaMAF · UNC, Argentina.
             e.preventDefault();
             showPage(i);
             setActive(i);
-            scrollUp();
+            
           });
           pagination.appendChild(li);
         }
@@ -1576,7 +1577,7 @@ Delivered at FaMAF · UNC, Argentina.
           e.preventDefault();
           showPage(totalPages);
           setActive(totalPages);
-          scrollUp();
+          
         });
         pagination.appendChild(lastLi);
       }
