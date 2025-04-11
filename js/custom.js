@@ -1,3 +1,4 @@
+// Manejo de themas
 const moon_icon = "fa-regular fa-moon";
 const sun_icon = "fa-regular fa-sun";
 const dark_font = "section-font-dark";
@@ -69,3 +70,81 @@ const applyThemeBasedOnTime = () => {
 };
 
 applyThemeBasedOnTime();
+
+// Paginador de sección 'Things'
+document.addEventListener("DOMContentLoaded", function () {
+    const itemsPerPage = 6;
+    const milestones = document.querySelectorAll(".milestone");
+    const pagination = document.getElementById("milestone-pagination");
+    const totalPages = Math.ceil(milestones.length / itemsPerPage);
+    
+    function scrollUp() {
+      // Sube la página y hace foco al comienzo de la seccion
+      document.getElementById("sec-things").scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+      });
+    }
+
+    function showPage(page) {
+      milestones.forEach((el, idx) => {
+        el.style.display = (idx >= (page - 1) * itemsPerPage && idx < page * itemsPerPage) ? 'block' : 'none';
+      });
+    }
+
+    function buildPagination() {
+      pagination.innerHTML = "";
+
+      // Botón de 'Latest'
+      const firstLi = document.createElement("li");
+      firstLi.className = "page-item";
+      firstLi.innerHTML = `<a class="page-link" href="#">« Latest</a>`;
+      firstLi.addEventListener("click", (e) => {
+        e.preventDefault();
+        showPage(1);
+        setActive(1);
+        scrollUp();
+      });
+      pagination.appendChild(firstLi);
+
+      // Botones de páginas
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement("li");
+        li.className = "page-item";
+        li.innerHTML = `<a class="page-link" href="#">${i}</a>`;
+        li.addEventListener("click", (e) => {
+          e.preventDefault();
+          showPage(i);
+          setActive(i);
+          scrollUp();
+        });
+        pagination.appendChild(li);
+      }
+
+      // Botón de 'Earliest'
+      const lastLi = document.createElement("li");
+      lastLi.className = "page-item";
+      lastLi.innerHTML = `<a class="page-link" href="#">Earliest »</a>`;
+      lastLi.addEventListener("click", (e) => {
+        e.preventDefault();
+        showPage(totalPages);
+        setActive(totalPages);
+        scrollUp();
+      });
+      pagination.appendChild(lastLi);
+    }
+
+    function setActive(page) {
+      document.querySelectorAll("#milestone-pagination .page-item").forEach((item, idx) => {
+        item.classList.remove('active');
+        // Index shift because first and last are not numbered
+        if (idx === page) {
+          item.classList.add('active');
+        }
+      });
+    }
+
+    buildPagination();
+    showPage(1);
+    setActive(1);
+  });

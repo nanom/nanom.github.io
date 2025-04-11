@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hernán J. Maina - Website</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Hernán J. Maina - Website</description>
+    <title>Hernán J. Maina - Home</title>
+    <link>https://nanom.github.io/</link>
+    <description>Recent content on Hernán J. Maina - Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</managingEditor>
     <webMaster>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</webMaster>
     <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nanom.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark</title>
-      <link>http://localhost:1313/publications/2024/cvqa/</link>
+      <link>https://nanom.github.io/publications/2024/cvqa/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2024/cvqa/</guid>
+      <guid>https://nanom.github.io/publications/2024/cvqa/</guid>
       <description></description>
     </item>
     <item>
       <title>Selectively Answering Visual Questions</title>
-      <link>http://localhost:1313/publications/2024/selective_vqa/</link>
+      <link>https://nanom.github.io/publications/2024/selective_vqa/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2024/selective_vqa/</guid>
+      <guid>https://nanom.github.io/publications/2024/selective_vqa/</guid>
       <description></description>
     </item>
     <item>
       <title>Exploring stereotypes and biases in language technologies in Latin America</title>
-      <link>http://localhost:1313/publications/2024/cacm/</link>
+      <link>https://nanom.github.io/publications/2024/cacm/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2024/cacm/</guid>
+      <guid>https://nanom.github.io/publications/2024/cacm/</guid>
       <description></description>
     </item>
     <item>
       <title>Detecting correct answers to open questions and its impact on language models&#39; confidence scores</title>
-      <link>http://localhost:1313/publications/2024/detecting_correct_ans/</link>
+      <link>https://nanom.github.io/publications/2024/detecting_correct_ans/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2024/detecting_correct_ans/</guid>
+      <guid>https://nanom.github.io/publications/2024/detecting_correct_ans/</guid>
       <description></description>
     </item>
     <item>
       <title>Bias assessment for experts in discrimination, not in computer science</title>
-      <link>http://localhost:1313/publications/2023/bias_assessment/</link>
+      <link>https://nanom.github.io/publications/2023/bias_assessment/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2023/bias_assessment/</guid>
+      <guid>https://nanom.github.io/publications/2023/bias_assessment/</guid>
       <description></description>
     </item>
     <item>
       <title>A methodology to characterize bias and harmful stereotypes in natural language processing in Latin America</title>
-      <link>http://localhost:1313/publications/2023/a_methodology_to/</link>
+      <link>https://nanom.github.io/publications/2023/a_methodology_to/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2023/a_methodology_to/</guid>
+      <guid>https://nanom.github.io/publications/2023/a_methodology_to/</guid>
       <description></description>
     </item>
     <item>
       <title>A tool to overcome technical barriers for bias assessment in human language technologies</title>
-      <link>http://localhost:1313/publications/2022/a_tool_to_overcome/</link>
+      <link>https://nanom.github.io/publications/2022/a_tool_to_overcome/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2022/a_tool_to_overcome/</guid>
+      <guid>https://nanom.github.io/publications/2022/a_tool_to_overcome/</guid>
       <description></description>
     </item>
     <item>
       <title>An interpretable representation of dialog history in referential visual dialog</title>
-      <link>http://localhost:1313/publications/2022/an_interpretable_representation/</link>
+      <link>https://nanom.github.io/publications/2022/an_interpretable_representation/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2022/an_interpretable_representation/</guid>
+      <guid>https://nanom.github.io/publications/2022/an_interpretable_representation/</guid>
       <description></description>
     </item>
     <item>
       <title>Automatic multi-modal processing of language and vision to assist people with visual impairments</title>
-      <link>http://localhost:1313/publications/2022/automatic_multi_modal_processing/</link>
+      <link>https://nanom.github.io/publications/2022/automatic_multi_modal_processing/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2022/automatic_multi_modal_processing/</guid>
+      <guid>https://nanom.github.io/publications/2022/automatic_multi_modal_processing/</guid>
       <description></description>
     </item>
     <item>
       <title>What kinds of errors do reference resolution models make and what can we learn from them?</title>
-      <link>http://localhost:1313/publications/2022/what_kinds_of_errros/</link>
+      <link>https://nanom.github.io/publications/2022/what_kinds_of_errros/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2022/what_kinds_of_errros/</guid>
+      <guid>https://nanom.github.io/publications/2022/what_kinds_of_errros/</guid>
       <description></description>
     </item>
     <item>
       <title>Region under Discussion for visual dialog</title>
-      <link>http://localhost:1313/publications/2021/rud/</link>
+      <link>https://nanom.github.io/publications/2021/rud/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2021/rud/</guid>
+      <guid>https://nanom.github.io/publications/2021/rud/</guid>
       <description></description>
     </item>
     <item>
       <title>Stop the Bus!: Computer vision for automatic recognition of urban bus lines</title>
-      <link>http://localhost:1313/publications/2020/stop_the_bus/</link>
+      <link>https://nanom.github.io/publications/2020/stop_the_bus/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2020/stop_the_bus/</guid>
+      <guid>https://nanom.github.io/publications/2020/stop_the_bus/</guid>
       <description></description>
     </item>
     <item>
       <title>Visión artificial para el reconocimiento automático, en tiempo real, de líneas urbanas de autobuses</title>
-      <link>http://localhost:1313/publications/2019/thesis/</link>
+      <link>https://nanom.github.io/publications/2019/thesis/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/publications/2019/thesis/</guid>
+      <guid>https://nanom.github.io/publications/2019/thesis/</guid>
       <description></description>
     </item>
     <item>
       <title>about</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://nanom.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hi! I&amp;rsquo;m Hernán 👋&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a computer scientist currently pursuing a Ph.D. at &lt;em&gt;Facultad de Matemática, Astronomía, Física y Computación &lt;a href=&#34;https://www.famaf.unc.edu.ar/&#34;&gt;(FaMAF)&lt;/a&gt; · Universidad Nacional de Córdoba &lt;a href=&#34;https://www.unc.edu.ar/&#34;&gt;(UNC)&lt;/a&gt; · Argentina&lt;/em&gt;, with a doctoral fellowship from &lt;a href=&#34;https://www.conicet.gov.ar/&#34;&gt;CONICET&lt;/a&gt;. I work at the intersection of computer vision and natural language processing. My research, under the supervision of &lt;em&gt;Dra. Luciana Benotti&lt;/em&gt;, focuses on understanding the challenges of multimodal vision-and-language models to help visually impaired people perform daily tasks and interact with their environment. In particular, I work with visual question answering (VQA) systems, and the detection and recognition of written text in images.&lt;/p&gt;</description>
+      <guid>https://nanom.github.io/about/</guid>
+      <description>&lt;p&gt;Hi! I&amp;rsquo;m Hernán 👋&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a Computer Scientist currently pursuing a Ph.D. at &lt;em&gt;Facultad de Matemática, Astronomía, Física y Computación &lt;a href=&#34;https://www.famaf.unc.edu.ar/&#34;&gt;(FaMAF)&lt;/a&gt; · Universidad Nacional de Córdoba &lt;a href=&#34;https://www.unc.edu.ar/&#34;&gt;(UNC)&lt;/a&gt; · Argentina&lt;/em&gt;, with a doctoral fellowship from &lt;a href=&#34;https://www.conicet.gov.ar/&#34;&gt;CONICET&lt;/a&gt;. I work at the intersection of computer vision and natural language processing. My research, under the supervision of &lt;em&gt;Dra. Luciana Benotti&lt;/em&gt;&lt;sup&gt;&lt;a href=&#34;https://benotti.github.io/&#34;&gt;↗&lt;/a&gt;&lt;/sup&gt;, focuses on understanding the challenges of multimodal vision-and-language models to help visually impaired people perform daily tasks and interact with their environment. In particular, I work with visual question answering (VQA) systems, and the detection and recognition of written text in images.&lt;/p&gt;</description>
     </item>
     <item>
       <title>things</title>
-      <link>http://localhost:1313/things/</link>
+      <link>https://nanom.github.io/things/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
-      <guid>http://localhost:1313/things/</guid>
-      <description>&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;December 2024&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎙️ &lt;code&gt;Speaker&lt;/code&gt; at the &lt;a href=&#34;https://sites.google.com/mi.unc.edu.ar/workshop-de-ia-responsable/home&#34;&gt;Responsible Artificial Intelligence Workshop&lt;/a&gt;, presenting the talk &lt;em&gt;&amp;ldquo;Accesibilidad en modelos de Visión &amp;amp; Lenguaje (VLMs)&amp;rdquo;&lt;/em&gt;. The event was part of a collaboration between FaMAF · UNC, the CALMS project (Imperial College London), and the HESEIA project (Fundación Vía Libre).&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://drive.google.com/file/d/1OJaeHqdIylV6_1fJ2HZ2ehaR81gYvIdw/view?usp=sharing&#34;&gt;[Slides]&lt;/a&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;May 2024&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✍️ Wrote a &lt;code&gt;blog post&lt;/code&gt; for the &lt;a href=&#34;https://supercomputo.unc.edu.ar/&#34;&gt;High Performance Computing Center (CCAD)&lt;/a&gt; at the UNC, titled &lt;em&gt;&amp;ldquo;Modelos de lenguaje grandes en GPUs chicas&amp;rdquo;&lt;/em&gt;.&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://supercomputo.unc.edu.ar/2024/05/18/modelos-de-lenguaje-grandes-en-gpus-chicas/&#34;&gt;[Post]&lt;/a&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;December 2023&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎓🧪 &lt;code&gt;Final project&lt;/code&gt; for the &lt;em&gt;&amp;ldquo;Automatic Processing of Situated Language in a Visual Environment&amp;rdquo;&lt;/em&gt; postgraduate course, taught by &lt;em&gt;Dra. Luciana Benotti&lt;/em&gt; at FaMAF · UNC. Replicated results from prior research papers and extended them to address a specific problem involving grounded language understanding in visual scenes.&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://drive.google.com/file/d/1QSRLVROlgMzy4bFF2z4hla8tpvasvnM0/view?usp=sharing&#34;&gt;[Report1]&lt;/a&gt;  &lt;a href=&#34;https://drive.google.com/file/d/1OvdbbR0ZMFLvqPfCkwZCo5Xsx9NN-aQx/view?usp=sharing&#34;&gt;[Report2]&lt;/a&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;November 2023&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎓🛠️ &lt;code&gt;Workshop instructor&lt;/code&gt; (seminar accredited) for &lt;em&gt;&amp;ldquo;Modelos de Lenguaje a tu Medida&amp;rdquo;&lt;/em&gt;, delivered during the 2nd Argentine NLP Workshop, Córdoba, Argentina.&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;This workshop, introduced key concepts in domain adaptation for Large Language Models (LLM). It covered distinctions between pre-training, fine-tuning, and domain adaptation, along with hands-on practice adapting BERT and GPT-2 models to Spanish and English datasets. Participants worked step-by-step using Colab notebooks and shared their results on Hugging Face platform&amp;rdquo;&lt;/em&gt;.&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://github.com/nanom/llm_adaptation_2nlp_workshop&#34;&gt;[GitHub]&lt;/a&gt;.&#xA;&lt;/code&gt;&lt;/p&gt;</description>
+      <guid>https://nanom.github.io/things/</guid>
+      <description>&lt;p class=&#39;ps-2 border-start border-2&#39;&gt;&#xA;    Here are some highlights and milestones from my academic journey — including presentations, &#xA;    collaborations, courses, grants, and side projects that shaped my Ph.D. experience along the way.&#xA;&lt;/p&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;December 2024&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎙️ &lt;code&gt;Speaker&lt;/code&gt; at the &lt;a href=&#34;https://sites.google.com/mi.unc.edu.ar/workshop-de-ia-responsable/home&#34;&gt;Responsible Artificial Intelligence Workshop&lt;/a&gt;, presenting the talk &lt;em&gt;&amp;ldquo;Accesibilidad en modelos de Visión &amp;amp; Lenguaje (VLMs)&amp;rdquo;&lt;/em&gt;. The event was part of a collaboration between FaMAF · UNC, the CALMS project (Imperial College London), and the HESEIA project (Fundación Vía Libre).&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://drive.google.com/file/d/1OJaeHqdIylV6_1fJ2HZ2ehaR81gYvIdw/view?usp=sharing&#34;&gt;[Slides]&lt;/a&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;May 2024&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✍️ Wrote a &lt;code&gt;blog post&lt;/code&gt; for the &lt;a href=&#34;https://supercomputo.unc.edu.ar/&#34;&gt;High Performance Computing Center (CCAD)&lt;/a&gt; at the UNC, titled &lt;em&gt;&amp;ldquo;Modelos de lenguaje grandes en GPUs chicas&amp;rdquo;&lt;/em&gt;.&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://supercomputo.unc.edu.ar/2024/05/18/modelos-de-lenguaje-grandes-en-gpus-chicas/&#34;&gt;[Post]&lt;/a&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;December 2023&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎓🧪 &lt;code&gt;Final project&lt;/code&gt; for the &lt;em&gt;&amp;ldquo;Automatic Processing of Situated Language in a Visual Environment&amp;rdquo;&lt;/em&gt; postgraduate course, taught by &lt;em&gt;Dra. Luciana Benotti&lt;/em&gt; at FaMAF · UNC. Replicated results from prior research papers and extended them to address a specific problem involving grounded language understanding in visual scenes.&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://drive.google.com/file/d/1QSRLVROlgMzy4bFF2z4hla8tpvasvnM0/view?usp=sharing&#34;&gt;[Report1]&lt;/a&gt;  &lt;a href=&#34;https://drive.google.com/file/d/1OvdbbR0ZMFLvqPfCkwZCo5Xsx9NN-aQx/view?usp=sharing&#34;&gt;[Report2]&lt;/a&gt;&#xA;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;milestone&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;November 2023&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎓🛠️ &lt;code&gt;Workshop instructor&lt;/code&gt; (seminar accredited) for &lt;em&gt;&amp;ldquo;Modelos de Lenguaje a tu Medida&amp;rdquo;&lt;/em&gt;, delivered during the &lt;a href=&#34;https://sites.google.com/view/2doworkshopnlp/p%C3%A1gina-principal&#34;&gt;2nd Argentine NLP Workshop, Córdoba, Argentina&lt;/a&gt;.&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;This workshop, introduced key concepts in domain adaptation for Large Language Models (LLM). It covered distinctions between pre-training, fine-tuning, and domain adaptation, along with hands-on practice adapting BERT and GPT-2 models to Spanish and English datasets. Participants worked step-by-step using Colab notebooks and shared their results on Hugging Face platform&amp;rdquo;&lt;/em&gt;.&#xA;&lt;code&gt;&#xA;&lt;a href=&#34;https://github.com/nanom/llm_adaptation_2nlp_workshop&#34;&gt;[GitHub]&lt;/a&gt;.&#xA;&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

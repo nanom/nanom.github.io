@@ -104,3 +104,16 @@ a {
 nav[aria-label="Milestone pagination"] {
     margin-top: 2rem;
 }
+
+/* Estilos para sidebars */
+.email-wrap {
+    font-size: 0.75rem;
+    word-break: break-word;
+    max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .email-wrap {
+        font-size: 0.7rem;
+    }
+}
