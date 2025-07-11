@@ -8,8 +8,22 @@
     <language>en-us</language>
     <managingEditor>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</managingEditor>
     <webMaster>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</webMaster>
-    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nanom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Low-resource domain adaptation while minimizing energy and hardware resource consumption</title>
+      <link>https://nanom.github.io/publications/2025/lowresource/</link>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
+      <guid>https://nanom.github.io/publications/2025/lowresource/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ROSA: Addressing text understanding challenges in photographs via ROtated SAmpling</title>
+      <link>https://nanom.github.io/publications/2025/rosa/</link>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate><author>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</author>
+      <guid>https://nanom.github.io/publications/2025/rosa/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark</title>
       <link>https://nanom.github.io/publications/2024/cvqa/</link>
