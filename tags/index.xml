@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hernán J. Maina - Home</title>
-    <link>https://nanom.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Hernán J. Maina - Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</managingEditor>
     <webMaster>map[class:fa-regular fa-envelope-open icon: name:Email url:hernan.maina@mi.unc.edu.ar] (Hernán J. Maina)</webMaster>
-    <atom:link href="https://nanom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
